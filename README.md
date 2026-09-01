@@ -1,29 +1,23 @@
-# Crypto-Locking-Smart-contract
+# CryptoLock - Decentralized Message Storage on Ethereum
 
-My first smart contract deployed on Sepolia Testnet using Solidity & Remix. Stores and updates on-chain message.
+A simple and secure smart contract deployed on **Sepolia Testnet** for storing and updating on-chain messages.
 
-## 🚀 Deployment Details
+### Features
+- Store a message permanently on blockchain
+- Update message anytime
+- Gas optimized, built with Solidity ^0.8.0
+
+### Contract Details
+- **Contract Name:** CryptoLock
 - **Network:** Sepolia Testnet
-- **Language:** Solidity ^0.8.0
-- **IDE:** Remix + MetaMask
-- **Wallet:** `0x9A9ad1cD8B2c...5A092` (Balance 0.0729 ETH)
-- **Date:** Sep 1, 2026
+- **Language:** Solidity
 
-## 📄 Contract
-`Hello.sol` - Simple contract with 2 functions:
-- `message()` - reads message (free)
-- `setMessage(string)` - updates message
+### Deployed Contract
+Contract Address: [Add your Sepolia Etherscan link here after deployment]
 
-## 🔗 How to Verify
-1. Go to https://sepolia.etherscan.io
-2. Search your contract address
-3. See transaction history
+### How to Use
+1. Deploy `CryptoLock.sol` using Remix IDE
+2. Call `message()` to read current message
+3. Call `setMessage("your new message")` to update
 
-## 🧠 What I Learned
-- Solidity basics
-- Deploying on testnet
-- Using Remix & MetaMask
-- GitHub for Web3 portfolio
-
----
-Built with ❤️ by Abhishek - Nakur, UP
+Built by Abhishek Singh | Blockchain Developer
